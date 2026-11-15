@@ -2,6 +2,9 @@
 
 **SkinVault** is an unofficial League of Legends collection viewer and JSON exporter for [Pengu Loader](https://pengu.dev/). It reads collection information from the running League Client so you can inspect your items and export them to SkinVault Web.
 
+**SkinVault Web:** [Open the collection viewer](https://plox-coder.github.io/SkinVault/)  
+**SkinVault Web source code:** [Plox-coder/SkinVault on GitHub](https://github.com/Plox-coder/SkinVault)
+
 ## Features
 
 - View standard League of Legends skins and their ownership status (League Classic content is excluded).
@@ -37,7 +40,7 @@ No Node.js, build step or browser extension is needed to install this plugin. Th
 2. Skin ownership is checked once shortly after the plugin loads. Use **Sync skins** to refresh it manually.
 3. Click **Scan icons, wards & chromas** to read the other collections.
 4. For chromas, click **Scan 30 skins for chromas** repeatedly to check the next batch. Some ownership statuses may remain unverified if the Client API does not provide them.
-5. Click **Export JSON** to save `skinvault-collection.json` locally, then import the file into SkinVault Web to view your collection there.
+5. Click **Export JSON** to save `skinvault-collection.json` locally, then open [SkinVault Web](https://plox-coder.github.io/SkinVault/) and import the file to explore your collection.
 
 **Note:** The RP total displayed inside the Pengu Loader plugin uses prices entered in the plugin. The separate SkinVault web app has its own price-reference system.
 
@@ -56,4 +59,3 @@ The plugin is a single JavaScript file at `SkinVault/index.js` using Pengu Loade
 ## Disclaimer
 
 SkinVault is an unofficial fan project. It is not affiliated with, endorsed by, or sponsored by Riot Games or Pengu Loader. League of Legends and associated assets are the property of Riot Games.
-# SkinVault-PenguLoader
