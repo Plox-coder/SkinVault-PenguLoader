@@ -17,23 +17,6 @@
 
 The plugin interface is in English. Item names are provided by the League Client and may follow your client's language settings.
 
-## Installation
-
-1. Install and enable [Pengu Loader](https://pengu.dev/guide/installation).
-2. Open this repository's **Releases** section and download the latest **`SkinVault-PenguLoader-v0.4.zip`** asset. Do not use GitHub's automatically generated "Source code" archives for installation.
-3. Extract the ZIP into Pengu Loader's `plugins` directory. The resulting folder structure should be:
-
-   ```text
-   Pengu Loader/
-   └── plugins/
-       └── SkinVault/
-           └── index.js
-   ```
-
-4. Restart the League Client. A **SkinVault** button should appear in the lower-right corner.
-
-No Node.js, build step or browser extension is needed to install this plugin. The GitHub repository contains the same ready-to-use `SkinVault/index.js` source as the release ZIP.
-
 ## Usage
 
 1. Log in to the League Client and open **SkinVault**.
