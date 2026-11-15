@@ -1,0 +1,9 @@
+# Local collection exports contain account details; keep them out of Git.
+skinvault-collection*.json
+skinvault-coleccion*.json
+
+# Local packaging and editor files
+*.zip
+node_modules/
+.DS_Store
+.vscode/
